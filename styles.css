@@ -106,14 +106,19 @@ h2{
 }
 
 ul.foot{
+    display: block;
+        text-align: center;
     float:left;
     width: auto;
-    position: relative;
-    left:40%;
+
+
     margin: 0;
         
 }
 
+ul.foot li{
+    display: inline-block;
+    }
 ul.foot li a{
     color: white;
     padding:0;
