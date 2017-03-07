@@ -49,7 +49,6 @@ nav{
     color: #dadada;
     width: 130px;
     padding: 1.5em;
-    height: auto;
     text-align: center;
 }
 
@@ -61,8 +60,8 @@ ul.submenu {
     float: none;
     position: absolute;
     left:-9000em;
-         width: auto;
-         height: auto;
+    width: auto;
+    height: auto;
     }
 
 ul.submenu li{
@@ -74,7 +73,9 @@ ul.submenu li{
 ul.submenu li a{
     white-space: nowrap;
    }  
-   
+.menu li:hover ul{
+    left: 0;
+}    
  
 #logo{
     font-size: 2em;
@@ -92,11 +93,6 @@ footer{
     height: 11em;
     width: auto;
     background:#141435;
-}
-h1{
-    position: relative;
-    font-size: 50px;
-    top:20px;
 }
 
 h2{
@@ -121,7 +117,7 @@ ul.foot li{
     }
 ul.foot li a{
     color: white;
-    padding:0;
+
     display:inline;
     padding:0 5px;   
     
@@ -137,6 +133,4 @@ footer p{
     }
     
     
-.menu li:hover ul{
-    left: 0;
-}   
+ 
